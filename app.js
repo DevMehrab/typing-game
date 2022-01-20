@@ -1,8 +1,8 @@
-alert("type the given word in 4 second . to start the game click ok")
+alert("type the given word in 3 second . to start the game click ok")
 
 window.addEventListener("load", gameStart)
 
-let time = 4;
+let time = 3;
 let score = 0;
 let isPLaying;
 
@@ -87,7 +87,7 @@ function count() {
 function startGame(){
     if(matchWord()){
         isPLaying=true;
-        time=5;
+        time=4;
         showWord(words) 
         input.value='';
         score++; 
