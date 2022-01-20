@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <title>bookmark app</title>
+</head>
+
+<body>
+
+
+    <div class="game-container">
+        <p class="title">Type the given word within <b class="seconds">4</b> second</p>
+        <div class="game-word">fruits</div>
+        <input type="text" id="type" autofocus>
+           <h4 class="game-over">GAME OVER</h4>
+        <div class="time-score">
+            <div class="timer">Time left: <span class="time">5</span></div>
+            <div class="timer">Score: <span class="score">0</span></div>
+        </div>
+
+        <div class="instructions">
+            <h5>Instructions</h5>
+            <p>Type each word in the given amount of seconds to score. <br>To play again, just type the current word. Your
+                score will reset</p>
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

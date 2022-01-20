@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #e9ecf8;
+    padding: 10px;
+    width: 100%;
+  }
+
+.game-container {
+    display: flex;
+    justify-content:  flex-start;
+    align-items: center;
+    flex-direction: column;
+    background-color:#ffffff;
+    border: 10px solid #f3f4fb;
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    padding: 20px;
+    border-radius: 3px;
+    width: 100%;
+    max-width: 700px;
+  }
+  input{
+    border:none;
+    padding: 5px;
+    margin: 10px 0;
+    width: 100%; 
+    max-width: 300px;
+    margin-bottom: 10px;
+    border: 2px solid #ebebeb;
+    border-radius: 3px;
+    outline: none;
+}
+
+.title{
+   text-align: center;
+   margin: 10px 0;
+}
+.seconds{
+  color:#8536f6 ;
+}
+.game-word{
+  font-size: 30px;
+  padding: 10px 60px;
+  margin: 10px;
+  background-color:#e6e6e6 ;
+}
+
+.time-score{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; 
+  max-width: 300px; 
+  margin: 10px 0;
+}
+.timer{
+  background-color: rgb(240, 240, 240);
+  padding:2px 15px;
+}
+.instructions{
+  width: 100%; 
+  max-width: 450px;
+  background-color: #fffcef;
+  padding: 10px;
+  margin-top:15px;
+  text-align: center;
+}
+.instructions h5{
+  color: #ffbb05;
+}
+.instructions p{
+  font-size: 13px;
+}
+
+.game-over{
+  color:rgb(0, 0, 0);
+  display:block;
+
+  padding: 10px 30px;
+  margin: 10px;
+  border-radius: 3px;
+}
